@@ -1,0 +1,17 @@
+[ 
+ ["Long category name, testing text wrapping and button positions in flex containers below:", "Super extra long test question. On mobile devices the option buttons should float next to this text, somewhere in the center.", "YES", "Short text.", "YES", "A bit longer text. Hope it works. Press YES three times to get points.", "YES" ],
+ ["Math:", "3 > 5", "NO", "3+3*3=18", "NO", "4*0*4=0", "YES" ],
+ ["Math:", "2+2=5", "NO", "3!=6", "YES", "4!=24", "YES" ],
+ ["Math:", "|0-1|=1", "YES", "(-1)*(-1)=1", "YES", "1+3+5=135", "NO" ],
+ ["Geography:", "Kyoto is in Japan", "YES", "Miami is in Japan", "NO", "Tokyo is in Japan", "YES" ],
+ ["Geography:", "Ukraine is an island", "NO", "Ukraine is a country", "YES", "Ukraine is a river", "NO" ], 
+ ["Space:", "The Moon is a star", "NO", "The Moon has moons", "NO", "The Moon is flat", "NO" ],
+ ["Space:", "The ISS is solar-powered", "YES", "The ISS is water-powered", "NO", "The ISS is wind-powered", "NO" ],
+ ["Poker:", "Pair beats Flush", "NO", "Flush beats Pair", "YES", "Ace is the highest card", "YES" ],
+ ["Poker:", "King is the highest card", "NO", "Full House always wins", "NO", "Staight beats Flush", "NO" ],
+ ["Football:", "Messi is Spanish", "NO", "Messi is Argentinian", "YES", "Messi is French", "NO" ],
+ ["Football:", "Pele won World Cup once", "NO", "Pele won World Cup twice", "NO", "Pele won World Cup thrice", "YES" ],
+ ["Football:", "Two yellow cards make a red card", "YES", "Match lasts 80 minutes plus extra time", "NO", "Maximum of 5 substitutions per team are allowed", "NO" ],
+ ["Film:", "Stanley Kubrick directed 'Eyes Wide Shut'", "YES", "Stanley Kubrick directed 'Avatar'", "NO", "Stanley Kubrick directed 'Leon'", "NO" ],
+ ["Film:", "Jeff Bridges stars in 'The Big Lebowski'", "YES", "Christopher Nolan directed 'The Revenant'", "NO", "Wes Anderson directed 'Birdman'", "NO"]
+]
