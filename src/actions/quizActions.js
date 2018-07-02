@@ -17,7 +17,8 @@ export const onNextClick = () => {
   const elementsList = document.querySelectorAll("#first, #second, #third");   
   const elementsArray = [...elementsList];   
   elementsArray.forEach( element => { 
-                element.disabled=false ; 
+                element.childNodes[0].childNodes[2].disabled=false ; 
+                element.childNodes[0].childNodes[0].disabled=false ;
                 element.childNodes[1].firstElementChild.className='alert alert-info' });        
   if (store.getState().quiz.answeredBlocks <6){
     return ({type: NEXT,  payload:{                         
@@ -37,7 +38,8 @@ export const onNextClick = () => {
 };  
 
 export const onCheckClick = (tag, correct, row) => {         
-  document.getElementById(row).disabled=true;
+  document.getElementById(row).childNodes[0].childNodes[2].disabled=true;
+  document.getElementById(row).childNodes[0].childNodes[0].disabled=true;
   if (tag === quiz_data[store.getState().quiz.currentQuestion][correct]){
     document.getElementById(row).childNodes[1].firstElementChild.className='alert alert-success';
     return ({type: CHECK , payload:{ 

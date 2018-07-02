@@ -20,11 +20,11 @@ const propTypes = {
 class QuizBlock extends Component {   
 
   renderRow(correct,row,text){
-    return <fieldset id={row} className="flex-row">
+    return <div id={row} className="flex-row">
            <div className='option-col-1'>
-           {this.renderButton('YES', correct, row)}{' '}
+           {this.renderButton('YES', correct, row)} &nbsp; 
            {this.renderButton('NO', correct, row)}  </div> 
-           <Question text={text} /> </fieldset>
+           <Question text={text} /> </div>
       };
 
   renderButton(tag, correct, row) {
