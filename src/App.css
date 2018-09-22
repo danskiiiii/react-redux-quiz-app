@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&subset=latin-ext');
+
+body, div, p, button {
+  font-family: 'Russo One', sans-serif;
+  font-size: 18px !important;
+} 
+@media screen and (max-width: 600px) {
+  body, div, p, button {
+    font-size: 12px !important;
+  } 
+}
+
 .alert {  
   width: 100%; 
   text-align: left;

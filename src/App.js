@@ -5,21 +5,20 @@ import QuizBlock from './components/QuizBlock';
 import { start, shuffle } from './actions/quizActions';
 import store from './store';
 
-class App extends Component { 
-
-  componentDidMount(){
+class App extends Component {
+  componentDidMount() {
     store.dispatch(shuffle());
     store.dispatch(start());
-  };
-                  
-  render(){     
-    return (   
-    <div>  
-     <Result />  
-     <Status />          
-     <QuizBlock/>
-   </div>  
-   );
+  }
+
+  render() {
+    return (
+      <div>
+        <Result />
+        <Status />
+        <QuizBlock />
+      </div>
+    );
   }
 }
 export default App;
